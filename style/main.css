@@ -15,7 +15,7 @@
 /*Elementos base*/
 
 header .container {
-    margin-left: 5px;
+    margin-left: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,10 +57,40 @@ body {
 }
 
 .filme-principal .descricao {
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
 .titulo {
+    margin-top: 15%;
     font-size: 40px;
     font-family: 'Harry P Regular';
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.botao:hover {
+    background-color: #FFF;
+    color: black;
+}
+
+.botao i {
+    margin-right: 5px;
+}
+
+.container {
+    margin-left: 15px;
+}
+
+.filme-principal .container {
+    width: 50%;
 }
